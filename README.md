@@ -1,1 +1,3 @@
-# netology-homework-18-cloud-infrastructure-terraform
+# Домашние задания по модулю «Облачная инфраструктура. Terraform». Потапчук Сергей.
+
+## 1. [Введение в Terraform](01-intro-to-terraform/)
