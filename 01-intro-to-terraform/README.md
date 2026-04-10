@@ -64,7 +64,7 @@
   - пропущено имя ресурса (в соответствии со строкой image = docker_image.nginx.image_id, ресурс должен называться nginx)
   - недопустимое имя ресурса (не должно начинаться с цифры)
 
-![](img/img-01-06.pngi)
+![](img/img-01-06.png)
 
   - ссылка на необъявленный ресурс (ресурса random_string_FAKE нет, нужно заменить на существующий random_string)
 
@@ -125,7 +125,7 @@ resource "docker_container" "nginx" {
 
 на
 
-  - name  = "hello_world"
+  - `name  = "hello_world"`
 
 ![](img/img-01-10.png)
 
@@ -136,8 +136,6 @@ resource "docker_container" "nginx" {
 7. Удаление ресурсов (`terraform destroy`)
 
 ![](img/img-01-11.png)
-
-![](img/img-01-11_1.png)
 
 8. docker-образ не был удалён из-за аргумента `keep_locally = true` в определении ресурса `resource "docker_image" "nginx"`
 
