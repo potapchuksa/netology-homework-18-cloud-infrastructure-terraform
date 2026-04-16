@@ -658,6 +658,8 @@ resource "null_resource" "ansible_provision" {
 
 ![](img/img-06-01.png)
 
+![](img/img-06-02.png)
+
 ------
 
 ### Правила приёма работы
